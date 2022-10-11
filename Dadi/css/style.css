@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252525;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 3rem;
+    margin: .5em 0;
+}
+
+#btn-play{
+    font-size: 1.5rem;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    background-color: #fff;
+    color: red;
+}
+
+.table{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/free-photo/wooden-table-background_23-2147962363.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+}
+
+.dice-label{
+    width: calc(70% / 2 - 1em);
+}
+
+.dice{
+    width: calc(70% / 2 - 1em);
+    height: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.result{
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.win{
+    color: green;
+}
+
+.lose{
+    color: red;
+}
+
+.draw{
+    color: orange;
+}
